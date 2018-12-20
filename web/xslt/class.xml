@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type = "text/xsl" href = "students.xsl"?> 
+<class>
+	<student>
+		<name>ujjwol</name>
+		<marks>20</marks>
+	</student>
+
+	<student>
+		<name>anmol</name>
+		<marks>24</marks>
+	</student>
+
+	<student>
+		<name>kedar</name>
+		<marks>18</marks>
+	</student>
+
+	</class>

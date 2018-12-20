@@ -1,0 +1,30 @@
+ .preloader {
+            position: fixed;
+            top: 0;
+            left: 0;
+            bottom: 0;
+            right: 0;
+            z-index: 99999999999;
+            background: #fff;
+            -webkit-transition: opacity 800ms ease-in-out;
+            transition: opacity 800ms ease-in-out;
+        }
+
+        .preloader__gif {
+            position: absolute;
+            width: 100px;
+            height: 100px;
+            top: 50%;
+            left: 50%;
+            margin: -50px 0 0 -50px;
+            /*background: url("https://pixelicons.com/wp-content/themes/pexelicons/assets/img/pufff.svg") no-repeat;*/
+            background-size: cover;
+            text-indent: -9999px;
+            -webkit-transition: opacity 300ms ease-in-out;
+            transition: opacity 300ms ease-in-out;
+        }
+
+        .preloader_loaded,
+        .preloader_loaded > div {
+            opacity: 0;
+        }

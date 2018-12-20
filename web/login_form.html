@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<title>Login</title>
+	<script>
+		function validate()
+		{
+				var name = document.forms["validateForm"]["username"];
+				var pass = document.forms["validateForm"]["pwd"];
+
+				if(name.value == "")
+				{
+					alert("enter name");
+				}
+
+				if (pass.value =="") {
+					alert("enter mobile NO");
+				}
+				
+		}
+	</script>
+</head>
+<body>
+	<form method="post" action="" name="validateForm" onsubmit="return validate()">
+		<fieldset>
+	
+		
+		<center>
+			<h2>Login Form</h2>
+		<div><label for="username">Username</label></div>
+		<div>
+			<input type="text" name="username" id="name" placeholder="username">
+		</div><br>
+
+		<div><label for="username">Mobile NO:</label></div>
+		<div>
+			<input type="mobile" name="pwd" id="pwd" placeholder="password">
+		</div><br>
+		
+		<input type="submit" value="submit">
+	</center>
+	</fieldset>
+	</form>
+</body>
+</html>
